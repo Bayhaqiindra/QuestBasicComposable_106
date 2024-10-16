@@ -74,6 +74,8 @@ fun Asnawi(modifier: Modifier = Modifier) {
             contentDescription = "Logo Universitas Muhammadiyah Yogyakarta",
             modifier = Modifier.size(180.dp)
         )
+
+        Spacer(modifier = Modifier.height(24.dp))
     }
 }
 
