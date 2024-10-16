@@ -82,7 +82,8 @@ fun Asnawi(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 35.sp,
                 fontWeight = FontWeight.Bold,
-            )
+                fontFamily = FontFamily.Serif
+            ),
         )
 
     }
