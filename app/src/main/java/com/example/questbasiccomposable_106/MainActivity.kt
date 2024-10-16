@@ -48,7 +48,11 @@ fun Asnawi(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Serif,
             ),
-            )
+        )
+
+        Text (
+            text = "Ini Adalah Halaman Login",
+        )
     }
 }
 
