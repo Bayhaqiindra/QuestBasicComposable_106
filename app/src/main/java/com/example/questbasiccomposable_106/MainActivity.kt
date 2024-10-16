@@ -81,6 +81,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             text = "NAMA",
             style = TextStyle(
                 fontSize = 35.sp,
+                fontWeight = FontWeight.Bold,
             )
         )
 
