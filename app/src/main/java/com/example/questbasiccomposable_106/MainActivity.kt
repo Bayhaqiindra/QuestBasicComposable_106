@@ -98,6 +98,9 @@ fun Asnawi(modifier: Modifier = Modifier) {
 
         Text (
             text = "20220140106",
+            style = TextStyle(
+
+            ),
         )
 
     }
