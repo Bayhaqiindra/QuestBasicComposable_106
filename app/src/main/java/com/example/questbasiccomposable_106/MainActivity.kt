@@ -91,6 +91,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 25.sp,
                 color = Color(0xFF6200EA),
+                fontWeight = FontWeight.Bold,
             ),
         )
 
