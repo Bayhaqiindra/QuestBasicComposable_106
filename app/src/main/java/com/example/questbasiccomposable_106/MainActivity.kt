@@ -47,7 +47,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold,
-                fontFamily = FontFamily.Serif,
+                fontFamily = FontFamily.Serif
             ),
         )
 
@@ -56,7 +56,8 @@ fun Asnawi(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 16.sp,
                 color = Color.Gray,
-            )
+                fontFamily = FontFamily.Monospace
+            ),
         )
     }
 }
