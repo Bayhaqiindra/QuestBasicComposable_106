@@ -100,6 +100,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             text = "20220140106",
             style = TextStyle(
                 fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
             ),
         )
 
