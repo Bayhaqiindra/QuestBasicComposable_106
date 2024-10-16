@@ -110,8 +110,8 @@ fun Asnawi(modifier: Modifier = Modifier) {
         Image (
             painter = painterResource(R.drawable.saga),
             contentDescription = "Profil",
+            modifier = Modifier.size(350.dp)
         )
-
     }
 }
 
