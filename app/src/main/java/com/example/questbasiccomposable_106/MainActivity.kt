@@ -70,7 +70,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Image (
-
+            painter = painterResource(),
         )
     }
 }
