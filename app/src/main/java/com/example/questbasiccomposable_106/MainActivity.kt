@@ -108,6 +108,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(24.dp))
 
         Image (
+            painter = painterResource(R.drawable.ayao),
 
         )
 
