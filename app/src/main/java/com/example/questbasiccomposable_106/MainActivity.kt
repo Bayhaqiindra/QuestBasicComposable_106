@@ -90,6 +90,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             text = "Bayhaqi Indra Maulana",
             style = TextStyle(
                 fontSize = 25.sp,
+                color = Color(0xFF6200EA),
             ),
         )
 
