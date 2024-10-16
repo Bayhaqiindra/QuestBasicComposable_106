@@ -72,6 +72,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
         Image (
             painter = painterResource(R.drawable.umy),
             contentDescription = "Logo Universitas Muhammadiyah Yogyakarta",
+            modifier = Modifier.size(180.dp)
         )
     }
 }
