@@ -86,6 +86,10 @@ fun Asnawi(modifier: Modifier = Modifier) {
             ),
         )
 
+        Text (
+            text = "Bayhaqi Indra Maulana",
+        )
+
     }
 }
 
