@@ -52,7 +52,9 @@ fun Asnawi(modifier: Modifier = Modifier) {
 
         Text (
             text = "Ini Adalah Halaman Login",
-            style = TextStyle()
+            style = TextStyle(
+                fontSize = 16.sp,
+            )
         )
     }
 }
