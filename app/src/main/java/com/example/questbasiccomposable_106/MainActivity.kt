@@ -43,7 +43,9 @@ fun Asnawi(modifier: Modifier = Modifier) {
     ) {
         Text(
             text = "LOGIN",
-            style = TextStyle(),
+            style = TextStyle(
+                fontSize = 40.sp,
+            ),
             )
     }
 }
