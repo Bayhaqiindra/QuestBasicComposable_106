@@ -45,6 +45,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             text = "LOGIN",
             style = TextStyle(
                 fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
             ),
             )
     }
