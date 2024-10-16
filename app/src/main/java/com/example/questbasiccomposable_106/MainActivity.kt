@@ -79,6 +79,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
 
         Text(
             text = "NAMA",
+            style = TextStyle()
         )
 
     }
