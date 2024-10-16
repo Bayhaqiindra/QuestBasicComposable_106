@@ -52,6 +52,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
 
         Text (
             text = "Ini Adalah Halaman Login",
+            style = TextStyle()
         )
     }
 }
