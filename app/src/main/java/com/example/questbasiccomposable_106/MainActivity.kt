@@ -101,6 +101,7 @@ fun Asnawi(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Monospace
             ),
         )
 
