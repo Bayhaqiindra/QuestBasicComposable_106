@@ -38,6 +38,7 @@ fun Asnawi(name: String, modifier: Modifier = Modifier) {
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
+        modifier = modifier.fillMaxSize()
     ) {
     }
 }
