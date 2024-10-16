@@ -79,7 +79,9 @@ fun Asnawi(modifier: Modifier = Modifier) {
 
         Text(
             text = "NAMA",
-            style = TextStyle()
+            style = TextStyle(
+                fontSize = 35.sp,
+            )
         )
 
     }
