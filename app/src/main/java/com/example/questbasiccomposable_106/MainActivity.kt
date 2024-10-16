@@ -23,10 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestBasicComposable_106Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Asnawi(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    Asnawi(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
@@ -34,12 +31,15 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Asnawi(name: String, modifier: Modifier = Modifier) {
+fun Asnawi(modifier: Modifier = Modifier) {
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = modifier.fillMaxSize()
     ) {
+        Text(
+            text = "LOGIN",
+            )
     }
 }
 
@@ -47,6 +47,6 @@ fun Asnawi(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     QuestBasicComposable_106Theme {
-        Asnawi("Android")
+        Asnawi()
     }
 }
